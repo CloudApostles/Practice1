@@ -1,0 +1,29 @@
+
+    1st commit
+[git@ip-172-31-17-17 practice1]$ git show f9f73d5638768
+commit f9f73d5638768e6369a63bbee9f51f1cb09fe9c8 (HEAD -> master)
+Author: MarieAsamba <mariethesia@gmail.com>
+Date:   Tue Nov 26 02:05:57 2024 +0000
+
+    1st commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..7aac822
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# Practice1
+[git@ip-172-31-17-17 practice1]$ git remote -v
+[git@ip-172-31-17-17 practice1]$ git remote add link  https://github.com/CloudApostles/Practice1.git
+[git@ip-172-31-17-17 practice1]$ git remote -v
+link	https://github.com/CloudApostles/Practice1.git (fetch)
+link	https://github.com/CloudApostles/Practice1.git (push)
+[git@ip-172-31-17-17 practice1]$ git push link master
+Username for 'https://github.com': Asamba248
+Password for 'https://Asamba248@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CloudApostles/Practice1.git/'
+[git@ip-172-31-17-17 practice1]$ 
+
